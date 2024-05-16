@@ -1,0 +1,136 @@
+.bloowatch-cart-product__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;  
+}
+
+.bloowatch-cart-table__wrapper {
+  width: 80%;
+}
+
+.bloowatch-cart-product__table {
+  box-shadow: 2px 2px 2px 2px lightblue;
+  width: 100%;
+}
+
+.bloowatch-cart-product__table th{
+  min-width: 10vw;
+  padding: 2%;
+}
+
+.bloowatch-cart-product__image {
+  background-color: rgb(250, 250, 250);
+}
+
+.bloowatch-cart-product__image img{
+  width: 20px;
+  height:60px;
+}
+
+.bloowatch-cart-product__table td p,h5{
+  text-transform: capitalize;
+}
+
+.bloowatch-cart-product__quantity-handler {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 60px;
+}
+
+.bloowatch-cart-product__quantity-handler button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.bloowatch-cart-coupon__button-wrapper {
+  margin: 40px 0;
+  width: 65%;
+}
+
+.bloowatch-cart-button__wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.bloowatch-cart-coupon__form {
+  margin-top: 30px;
+  width: 22%;
+}
+
+.bloowatch-cart-product__empty {
+  text-transform: capitalize;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+  .bloowatch-cart-product__table th{
+    font-size: 13px;
+    width: 8vw;
+    padding: 10px;
+  }
+
+  .bloowatch-cart-product__quantity-handler button {
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .bloowatch-cart-product__table td p,h5{
+    font-size: 10px;
+  }
+
+  .bloowatch-cart-product__image img{
+    width: 15px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .bloowatch-cart-table__wrapper {
+    width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .bloowatch-cart-table__wrapper {
+    box-shadow: 2px 2px 2px 2px lightblue;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .bloowatch-cart-product__remove-item {
+    font-size: 10px;
+  }
+
+  .bloowatch-cart-product__table th{
+    font-size: 6px;
+    width: 4vw;
+    padding: 8px;
+  }
+
+  .bloowatch-cart-product__quantity-handler button {
+    padding: 3px;
+    border-radius: 2px;
+  }
+
+  .bloowatch-cart-product__table td p,h5{
+    font-size: 7px;
+  }
+
+  .bloowatch-cart-product__image img{
+    width: 8px;
+    height: 25px;
+  }
+
+  .bloowatch-cart-product__empty {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,52 @@
+.bloowatch-category__wrapper {
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.bloowatch-category__wrapper ul{
+  margin-top: 10px;
+}
+
+.bloowatch-category__un-selected{
+  text-transform: capitalize;
+  color:  rgb(139, 139, 139);
+  list-style-type: none;
+  margin-top: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.bloowatch-category__selected {
+  text-transform: capitalize;
+  color:  rgb(2, 29, 175);
+  list-style-type: none;
+  margin-top: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.bloowatch-category__reset{
+  margin-top: 10px;
+  border: 0px;
+}
+
+.bloowatch-category__reset-button{
+  padding: 8px;
+  border: 0px;
+  background-color: rgb(2, 29, 175);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bloowatch-category__reset-button-disabled {
+  cursor: not-allowed;
+  padding: 8px;
+  border: 0px;
+  color: white;
+  background-color: rgb(2, 29, 175);
+  font-weight: 700;
+}

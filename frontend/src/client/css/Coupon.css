@@ -1,0 +1,13 @@
+.bloowatch-coupon__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloowatch-coupon__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloowatch-coupon__form input{
+  padding: 8px;
+}
